@@ -10,3 +10,7 @@ def is_even(number):
         return True
     else:
         return False
+
+#Reverses a string
+def reverse_string(text):
+    return text[::-1]
