@@ -1,4 +1,4 @@
-#bin/bash
+#!bin/bash
 
 #Returns sum of numbers
 def add_numbers(num1, num2):
@@ -15,7 +15,14 @@ def is_even(number):
 def reverse_string(text):
     return text[::-1]
 
-#counts vowels in a string
+#Returns count of vowels in a string
 def count_vowels(text):
     vowels = 'aeiou'
     return sum(1 for char in text if char in vowels)
+
+#calculates factorial
+def calculate_factorial(n):
+    if n == 0:
+        return 1;
+    else:
+        return calculate_factorial((n-1) * n);

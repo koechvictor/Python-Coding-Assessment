@@ -14,3 +14,6 @@ This function takes a string `text` as input and returns the reversed version of
 ### 4. `count_vowels`
 This function takes a string `text` as input and returns the count of vowels (a, e, i, o, u) in the string. It ignores case sensitivity.
 
+### 5. `calculate_factorial`
+This function takes a non-negative integer `n` as input and returns the factorial of that number.
+
