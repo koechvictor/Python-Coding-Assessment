@@ -11,3 +11,6 @@ This function takes a single parameter `number` and returns `True` if the number
 ### 3. `reverse_string`
 This function takes a string `text` as input and returns the reversed version of that string.
 
+### 4. `count_vowels`
+This function takes a string `text` as input and returns the count of vowels (a, e, i, o, u) in the string. It ignores case sensitivity.
+

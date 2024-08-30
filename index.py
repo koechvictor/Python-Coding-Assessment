@@ -14,3 +14,8 @@ def is_even(number):
 #Reverses a string
 def reverse_string(text):
     return text[::-1]
+
+#counts vowels in a string
+def count_vowels(text):
+    vowels = 'aeiou'
+    return sum(1 for char in text if char in vowels)
