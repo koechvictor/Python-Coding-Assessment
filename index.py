@@ -26,3 +26,13 @@ def calculate_factorial(n):
         return 1;
     else:
         return n * calculate_factorial(n-1);
+
+def decorator_func(func):
+    def wrapper():
+        print("Decorator Applied")
+        return func()
+    return wrapper
+
+#apply decorator
+def apply_decorator(func):
+    return decorator_func(func)
