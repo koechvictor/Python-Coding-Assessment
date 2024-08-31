@@ -40,3 +40,13 @@ def apply_decorator(func):
 #sort by age tuples
 def sort_by_age(list_of_tuples):
     return sorted(list_of_tuples, key=lambda x: x[1])
+
+#Merge Dictionaries
+def merge_dicts(dict1, dict2):
+    merged_dict = dict1.copy()
+    for key, value in dict2.items():
+        if key in merged_dict:
+            merged_dict[key] += value
+        else:
+            merged_dict[key] = value
+            return merged_dict
