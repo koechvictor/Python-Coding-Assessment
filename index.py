@@ -36,3 +36,7 @@ def decorator_func(func):
 #apply decorator
 def apply_decorator(func):
     return decorator_func(func)
+
+#sort by age tuples
+def sort_by_age(list_of_tuples):
+    return sorted(list_of_tuples, key=lambda x: x[1])

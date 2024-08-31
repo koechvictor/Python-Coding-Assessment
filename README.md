@@ -20,3 +20,6 @@ This function takes a non-negative integer `n` as input and returns the factoria
 ### 6. `apply_decorator`
 This function takes a function `func` as input and applies a decorator named `decorator_func`. The decorator prints "Decorator Applied" before calling the original function.
 
+### 7. `sort_by_age`
+This function takes a list of tuples where each tuple contains a name and an age, and sorts the list of tuples by age in ascending order.
+
