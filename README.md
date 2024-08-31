@@ -17,3 +17,6 @@ This function takes a string `text` as input and returns the count of vowels (a,
 ### 5. `calculate_factorial`
 This function takes a non-negative integer `n` as input and returns the factorial of that number.
 
+### 6. `apply_decorator`
+This function takes a function `func` as input and applies a decorator named `decorator_func`. The decorator prints "Decorator Applied" before calling the original function.
+
