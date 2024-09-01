@@ -50,3 +50,12 @@ def merge_dicts(dict1, dict2):
         else:
             merged_dict[key] = value
             return merged_dict
+
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print(f"Car Information: {self.year} {self.make} {self.model}")

@@ -26,6 +26,11 @@ This function takes a list of tuples where each tuple contains a name and an age
 ### 8. `merge_dicts`
 This function takes two dictionaries as input and merges them into a single dictionary. If there are any common keys, their values are summed up.
 
+## Class
+
+### `Car`
+This class represents a car with attributes `make`, `model`, and `year`. It has a method `display_info` that prints out the car's information.
+
 ## Usage
 
 To use these functions and class, simply import them into your Python script and call them with the appropriate parameters.
@@ -45,3 +50,10 @@ def sample_function():
     print("Function called")
 
 sample_function()
+
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 3, 'c': 4}
+print(merge_dicts(dict1, dict2))
+
+car = Car("BMW", "X3", 2024)
+car.display_info()
